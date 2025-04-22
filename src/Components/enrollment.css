@@ -1,0 +1,25 @@
+/* Default border color for the input fields */
+.custom-input {
+    border: 1px solid rgba(160, 43, 4, 0.75);
+    transition: border-color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Apply brown color on hover */
+  .custom-input:hover {
+    border-color: rgba(106, 27, 0, 1); /* Darker brown when hovered */
+  }
+  
+  /* Optional: Apply the brown color on focus too */
+  .custom-input:focus {
+    border-color: rgba(106, 27, 0, 1); /* Darker brown when focused */
+    outline: none; /* Removes default focus outline */
+  }
+  
+  @media (max-width: 768px) {
+    .form-control-custom {
+      font-size: 0.95rem;
+      padding: 10px;
+    }
+  }
+  
+  
